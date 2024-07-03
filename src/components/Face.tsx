@@ -23,12 +23,14 @@ const Face: React.FC = () => {
 
   return (
     <div className="face">
+      <div className="horn-container">
+        <div className="horn left"></div>
+        <div className="horn right"></div>
+      </div>
       <div className="eyes">
         <div className="eye"></div>
         <div className="eye"></div>
       </div>
-      <div className="nose"></div>
-      <div className="mouth"></div>
     </div>
   );
 };
