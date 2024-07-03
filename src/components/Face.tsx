@@ -31,6 +31,8 @@ const Face: React.FC = () => {
         <div className="eye"></div>
         <div className="eye"></div>
       </div>
+      <div className="nose"></div>
+      <div className="mouth"></div>
     </div>
   );
 };
